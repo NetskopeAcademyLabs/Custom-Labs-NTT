@@ -1,0 +1,50 @@
+# Lab Environment Overview
+
+> **Before you begin**, locate your **Student Number** in the **Environment Information** pane on the right-hand side of your lab interface. All credentials and identities used throughout this lab are tied to that number.
+
+***
+
+## Your Lab Credentials
+
+Your lab credentials are linked directly to your assigned student number.
+
+| Purpose | Format | Example (Student 1) |
+|---|---|---|
+| Netskope Tenant Admin Login | `student{N}@netskope.com` | `student1@netskope.com` |
+| Real-Time Policy / Netskope Client Identity | `student{N}@nsci-training.com` | `student1@nsci-training.com` |
+
+***
+
+## Understanding Your Identities
+
+### 1. Netskope Tenant — Admin Access
+
+When logging in to the **Netskope tenant** as an administrator, use your student email in the following format:
+
+```
+student{N}@netskope.com
+```
+
+For example, if you are **Student 1**, your admin login would be:
+
+```
+student1@netskope.com
+```
+
+***
+
+### 2. Real-Time Policy Testing & Netskope Client
+
+When **configuring Real-Time Policies** and performing tests, you will be identified by your `@nsci-training.com` email address. This is also the identity registered on the **Netskope Client** installed on your lab machine.
+
+```
+student{N}@nsci-training.com
+```
+
+For example, if you are **Student 1**, your identity during policy testing would be:
+
+```
+student1@nsci-training.com
+```
+
+> **Note:** Replace `{N}` with your actual student number throughout all lab exercises.
